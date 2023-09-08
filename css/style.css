@@ -1,68 +1,73 @@
-/* Base css */
+/*======================================
+	ThemesBazar common style start
+======================================*/
 *{
-    margin: 0; 
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-size: 17px;
-    margin: 0 0 0;
-    font-weight: normal;
-	line-height: 1.2;
-
-}
-p{
-	margin: 0;
+.theme-bg{
+    background-color: #02897B;
 }
 a{
-    display: inline-block;
     text-decoration: none;
 }
-
-ul {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
+/*======================================
+	ThemesBazar common style end
+======================================*/
 
 
-.heading-up{
+/*======================================
+	ThemesBazar Hero top style start
+======================================*/
+.hero-top{
     display: flex;
     justify-content: space-between;
-    background-color: #02897B;
     align-items: center;
-    padding: 10px 0;
+    height: 50px;
 }
 
-.heading-up p{
-    display: inline-block;
-    padding-right: 10px;
+.ma-code{
     color: #ffffff;
-    padding-top: 10px;
-}
-.button{
-    text-align: right;
-}
-.button a{
-    padding: 10px 15px;
-    border: 1px solid #02897B;
-    border-radius: 10px;
-    color: #02897B;
-    background-color: white;
-    cursor: pointer;
+    margin-left: 50px;
 }
 
-.logo{
-    width: 10% !important;
+.auth-btns a{
+    color: #02897B;
+    background-color: #ffffff;
+    padding: 10px 20px;
 }
-.logo img{
+
+.auth-btns a:last-child{
+    margin-right: 50px;
+}
+
+.auth-btns a:first-child{
+    margin-right: 10px;
+}
+
+/*======================================
+	ThemesBazar Hero top style End
+======================================*/
+
+/* Hero title style start */
+.hero-title{
+    height: 200px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.title{
-    width: 90%;
+
+.hero-title img{
+    width: 150px;
+    height: 150px;
+    margin: 5px 20px 0px 0px;
 }
+
+.institute-title{
+    font-size: 2rem;
+    text-align: center;
+}
+/* Hero title style End */
+
