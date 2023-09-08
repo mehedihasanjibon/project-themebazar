@@ -335,3 +335,47 @@ marquee{
     margin-right: 10px;
 }
 /* testimonial section styles end */
+
+
+
+/* footer section styles start */
+footer{
+    background-color: #02897B;
+    color: #ffffff;
+    line-height: 1.8em;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    padding: 20px;
+    border-bottom: 1px solid #808080;
+}
+.logo-box{
+    width: 25%;
+}
+.logo-box img{
+    width: 150px;
+    height: 150px;
+}
+.icons{
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.icons i{
+    margin-left: 10px;
+}
+
+.footer-title{
+    margin-bottom: 30px;
+}
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+/* footer section styles end */
