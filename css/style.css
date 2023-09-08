@@ -282,3 +282,56 @@ marquee{
     margin-right: 10px;
 }
 /* history section styles end */
+
+
+/* testimonial section styles start */
+.testimonial-container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-card {
+    background-color: rgba(2, 137, 123, .2);
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 350px;
+    border: 2px solid #02897B;
+    padding: 40px;
+    margin: 25px 15px;
+}
+
+.card-header img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid #02897B;
+}
+
+.card-header {
+    text-align: center;
+    color: #02897B;
+    margin-bottom: 90px;
+}
+
+.testimonial-body {
+    width: 400px;
+    margin-left: 50px;
+    font-size: 1.2rem;
+}
+
+.testimonial-body button {
+    float: right;
+    border: none;
+    background-color: #02897B;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    margin-top: 50px;
+}
+
+.testimonial-body i {
+    margin-right: 10px;
+}
+/* testimonial section styles end */
